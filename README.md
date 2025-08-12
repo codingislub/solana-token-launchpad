@@ -1,12 +1,17 @@
-# React + Vite
+# Solana Token Dashboard & Launchpad
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app lets you easily create and manage your own tokens on the Solana blockchain(DEVNET) — all from a simple web interface.
 
-Currently, two official plugins are available:
+What it does:
+Connect your Solana wallet right from the browser with popular wallet support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Create your very own SPL token (think of it like your own custom cryptocurrency).
 
-## Expanding the ESLint configuration
+Mint tokens and send them to any Solana wallet address you want.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+See confirmation messages and transaction details as you go, so you know everything worked.
+
+The interface looks clean and modern thanks to Tailwind CSS.
+
+How it works:
+You just connect your wallet, create a token with a click, and then you can mint tokens to whoever you want by entering their wallet address and the amount. Behind the scenes, it uses Solana’s Web3.js and SPL Token libraries to interact with the blockchain, specifically the Devnet (Solana’s test network) so you can experiment without spending real money.
